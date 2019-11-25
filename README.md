@@ -2,6 +2,15 @@
 
 As of cctools 7.0.21, the support for the sub-workflow feature in JX is unclear, you need to pull the current master branch from cctools github repo and compile from source.
 
+If you are on atmosphere this image should have all the dependency to compile cctools from source
+
+https://atmo.cyverse.org/application/images/1762
+
+Or install the dependency yourself (Ubuntu 18.04 LTS)
+
+https://jxuzy.blogspot.com/2019/11/install-cctools-ubuntu-1804lts.html
+
+> Note: you will also need docker runtime to run this workflow
 
 * Those commands will compile and install cctools to your home directory, `makeflow` will be at `$HOME/cctools/bin/makeflow`, which is the path that `entrypoint.sh` uses.
 ```bash
