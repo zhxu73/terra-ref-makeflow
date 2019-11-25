@@ -34,6 +34,7 @@ chmod 755 entrypoint.sh
 rm -f makeflow.jx.args.*
 ```
 * Modify `main_env.jx` to run on other data sets
+
 Just append/change the full iRODS path in the `IRODS_DIR_PATH_LIST` array (path needs to be in double quotes)
 
 And append/change the UUID (part of the filename, e.g `5716a146-8d3d-4d80-99b9-6cbf95cfedfb_left.bin` has a UUID of `5716a146-8d3d-4d80-99b9-6cbf95cfedfb`) in the `UUID_LIST` array
