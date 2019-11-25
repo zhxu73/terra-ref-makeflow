@@ -23,6 +23,7 @@ make install
 
 * Run the workflow, `-r 0` for 0 retry attempts if failed
 ```bash
+cd terra-ref-makeflow
 chmod 755 entrypoint.sh
 ./entrypoint.sh -r 0
 ```
