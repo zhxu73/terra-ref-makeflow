@@ -58,10 +58,8 @@
         "MOSAIC_LIST_FILE": MOSAIC_LIST_FILE
       },
       "inputs": [
-        FIELDMOSAIC_DIR,
-        join(LEFT_SOILMASK_LIST, " "),
-        join(RIGHT_SOILMASK_LIST, " ")
-      ],
+        FIELDMOSAIC_DIR
+      ] + LEFT_SOILMASK_LIST + RIGHT_SOILMASK_LIST,
       "outputs": [
         MOSAIC_LIST_FILE
       ]
