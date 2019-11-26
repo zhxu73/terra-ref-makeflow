@@ -1,5 +1,8 @@
 # terra-ref-makeflow
 
+## Repo Moved
+> This repo has been moved to https://github.com/uacic/starTerra, all new commit will be pushed there
+
 As of cctools 7.0.21, the support for the sub-workflow feature in JX is unclear, you need to pull the current master branch from cctools github repo and compile from source.
 
 If you are on atmosphere this image should have all the dependency to compile cctools from source
